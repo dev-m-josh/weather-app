@@ -6,20 +6,25 @@ box-sizing: border-box;
 }
 body{
 background: #222;
+height: 100vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
 }
 .card{
     width: 90%;
     max-width: 470px;
     background: linear-gradient(135deg, #00feba, #5b2548);
     color: #fff;
-    margin: 100px auto 0;
+    margin: auto;
     border-radius: 20px;
     padding: 40px 35px;
     text-align: center;
 }
 
 .search{
-    width: 100;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -90,4 +95,8 @@ background: #222;
 .humidity, .wind{
     font-size: 28px;
     margin-top: -6px;
+}
+
+.wind-img{
+    border-radius: 50%;
 }
